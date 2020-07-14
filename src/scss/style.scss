@@ -1,0 +1,55 @@
+@import "destyle";
+
+.default-body {
+  border-top: 8px solid rgb(105, 204, 174);
+  background-color: rgb(245, 245, 245);
+}
+
+.inner {
+  width: 920px;
+  margin: 0 auto;
+}
+
+.attention {
+  color: red;
+}
+
+.site-header {
+  width: 100%;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    height: 145px;
+    align-items: center;
+    & .contact-box {
+      width: 215px;
+      height: 120px;
+      &__title {
+        font-size: 7px;
+      }
+      &__reception {
+        width: 100%;
+        margin-top: 20px;
+        &__tel {
+          color: rgb(93, 93, 93);
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          & i {
+            font-size: 20px;
+          }
+          & .phone-number {
+            font-size: 24px;
+          }
+        }
+        &__time {
+          margin-top: 10px;
+          font-size: 7px;
+          border: 1px solid rgb(206, 205, 205);
+          text-align: center;
+          padding: 5px 0;
+        }
+      }
+    }
+  }
+}
