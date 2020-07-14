@@ -16,14 +16,16 @@
 
 .site-header {
   width: 100%;
-  &__wrapper {
+  &__title {
     display: flex;
     justify-content: space-between;
-    height: 145px;
+    height: 120px;
     align-items: center;
+    &__img {
+      padding-top: 25px;
+    }
     & .contact-box {
       width: 215px;
-      height: 120px;
       &__title {
         font-size: 7px;
       }
@@ -39,16 +41,48 @@
             font-size: 20px;
           }
           & .phone-number {
-            font-size: 24px;
+            font-size: 25px;
           }
         }
         &__time {
-          margin-top: 10px;
-          font-size: 7px;
+          margin-top: 2px;
+          font-size: 10px;
           border: 1px solid rgb(206, 205, 205);
           text-align: center;
-          padding: 5px 0;
+          padding: 8px 0;
         }
+      }
+    }
+  }
+  &__nav {
+    display: flex;
+    margin-top: 5px;
+    & button {
+      text-align: center;
+      width: 20%;
+      padding: 20px 0;
+      background: linear-gradient(rgb(123, 243, 207), rgb(105, 204, 174) );
+      color: #fff;
+      font-size: 14px;
+      border: 1px solid rgb(131, 211, 131);
+      transition: 'background' 0.3s;
+      & .sub-text {
+        font-size: 7px;
+        text-align: center;
+        font-weight: bold;
+      }
+      &:first-child {
+        border-radius: 5px 0 0 5px;
+      }
+      &:last-child {
+        border-radius: 0 5px 5px 0;
+      }
+      &:nth-child(-n+4) {
+        border-right: unset;
+      }
+      &:hover {
+        background: linear-gradient(rgb(105, 204, 174), rgb(123, 243, 207));
+        color: rgb(184, 255, 234);
       }
     }
   }
