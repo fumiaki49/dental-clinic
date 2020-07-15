@@ -3,6 +3,7 @@
 .default-body {
   border-top: 8px solid rgb(105, 204, 174);
   background-color: rgb(245, 245, 245);
+  font-family: Verdana,Arial,Helvetica,'meirio','メイリオ','Hiragino Maru Gothic Pro','ヒラギノ丸ゴ Pro W4',Osaka,'ＭＳ Ｐゴシック',sans-serif;
 }
 
 .inner {
@@ -25,7 +26,7 @@
       padding-top: 25px;
     }
     & .contact-box {
-      width: 215px;
+      width: 216px;
       &__title {
         font-size: 7px;
       }
@@ -83,6 +84,41 @@
       &:hover {
         background: linear-gradient(rgb(105, 204, 174), rgb(123, 243, 207));
         color: rgb(184, 255, 234);
+      }
+    }
+  }
+}
+
+.main-area {
+  margin-top: 20px;
+}
+
+.menu-box {
+  width: 260px;
+  & .menu {
+    margin-top: 20px;
+    border: 1px solid rgb(105, 204, 174);
+    border-radius: 5px 5px 0 0;
+    &:first-child {
+      margin-top: 0;
+    }
+    &__title {
+      border-radius: 4px 4px 0 0;
+      color: #fff;
+      background: linear-gradient(rgb(123, 243, 207), rgb(105, 204, 174) );
+      padding: 12px 15px;
+    }
+    & ul {
+      color: rgb(93, 93, 93);
+      width: 90%;
+      margin: 0 auto;
+      margin-bottom: 20px;
+      list-style: inside;
+      list-style-type: disc;
+      & li {
+        border-bottom: 1px solid rgb(105, 204, 174);
+        padding: 10px 0 10px 8px;
+        font-size: 14px;
       }
     }
   }
