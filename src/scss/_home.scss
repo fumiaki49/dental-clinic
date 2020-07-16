@@ -4,26 +4,29 @@
   margin-top: 7px;
   & .news {
     width: 640px;
-    padding: 40px 20px 45px 20px;
+    padding: 20px;
     &__title {
+      height: 50px;
+      line-height: 50px;
       font-size: 16px;
       padding-bottom: 15px;
-      border-bottom: 2px solid #6BC6C4;
+      border-bottom: 3px solid $themeColor;
     }
     &__text-box {
       margin-top: 30px;
+      margin-bottom: 15px;
       font-size: 13px;
       padding: 0 10px;
       & dt {
         float: left;
       }
       & dd {
-        padding-left: 150px;
+        padding-left: 145px;
         padding-bottom: 15px;
         border-bottom: 1px dotted #cccccc;
       }
       & dt, dd {
-        line-height: 20px;
+        line-height: 17.5px;
         margin-top: 10px;
         &:first-child {
           margin-top: 0;
