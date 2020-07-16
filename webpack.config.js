@@ -4,6 +4,11 @@ const enabledSourceMap = MODE === "development";
 module.exports = {
   mode: MODE,
   watch: true,
+  entry: "./src/index.js",
+  output: {
+    path: `${__dirname}/dist`,
+    filename: "main.js"
+  },
   module: {
     rules: [
       // Sassファイルの読み込みとコンパイル
