@@ -1,7 +1,9 @@
 @import "destyle";
+@import "variable";
+@import "home";
 
 .default-body {
-  border-top: 8px solid #6BC6C4;
+  border-top: 8px solid $themeColor;
   background-color: #F6F6F6;
   font-family: Verdana,Arial,Helvetica,'meirio','メイリオ','Hiragino Maru Gothic Pro','ヒラギノ丸ゴ Pro W4',Osaka,'ＭＳ Ｐゴシック',sans-serif;
 }
@@ -16,7 +18,7 @@
 }
 
 .default-text {
-  color: #515151;
+  color: $textColor;
 }
 
 .site-header {
@@ -51,7 +53,7 @@
         &__time {
           margin-top: 2px;
           font-size: 10px;
-          border: 1px solid rgb(206, 205, 205);
+          border: 1px solid #D6D6D6;
           text-align: center;
           padding: 8px 0;
         }
@@ -65,7 +67,7 @@
       text-align: center;
       width: 20%;
       padding: 20px 0;
-      background: linear-gradient(#9DE3E1 ,#6BC6C4);
+      background: linear-gradient(#9DE3E1 ,$themeColor);
       color: #fff;
       font-size: 14px;
       border: 1px solid #71C9C7;
@@ -85,7 +87,7 @@
         border-right: unset;
       }
       &:hover {
-        background: linear-gradient(#6BC6C4, #9DE3E1);
+        background: linear-gradient($themeColor, #9DE3E1);
         color: #C1FFFD;
       }
     }
@@ -94,6 +96,9 @@
 
 .main-area {
   margin-top: 20px;
+  &__wrapper {
+    display: flex;
+  }
 }
 
 .menu-box {
@@ -109,7 +114,7 @@
     &__title {
       border-radius: 4px 4px 0 0;
       color: #fff;
-      background: linear-gradient(#9DE3E1 ,#6BC6C4);
+      background: linear-gradient(#9DE3E1 ,$themeColor);
       padding: 12px 15px;
     }
     & ul {
@@ -139,4 +144,8 @@
       }
     }
   }
+}
+
+.page-main-box {
+  margin-left: 20px;
 }
