@@ -1,9 +1,11 @@
 @import "variable";
 @import "top";
 @import "clinic";
+@import "service";
 
 p {
   line-height: 23px;
+  font-size: 13px;
 }
 
 .default-body {
@@ -32,6 +34,12 @@ p {
   font-weight: 700;
   padding-bottom: 15px;
   border-bottom: 3px solid $themeColor;
+}
+
+.sub-title {
+  color: $themeColor;
+  font-size: 15px;
+  font-weight: 700;
 }
 
 .site-header {
@@ -76,7 +84,7 @@ p {
   &__nav {
     display: flex;
     margin-top: 5px;
-    & button {
+    & a {
       text-align: center;
       width: 20%;
       padding: 20px 0;
@@ -84,7 +92,6 @@ p {
       color: #fff;
       font-size: 14px;
       border: 1px solid #71C9C7;
-      transition: 'background' 0.3s;
       & .sub-text {
         font-size: 7px;
         text-align: center;
@@ -185,7 +192,6 @@ p {
   }
 }
 .footer-address p{
-  font-size: 13px;
   height: 50px;
   line-height: 50px;
   text-align: right;

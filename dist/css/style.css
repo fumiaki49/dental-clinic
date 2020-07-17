@@ -42,10 +42,6 @@
       margin-top: 20px; }
     .introduce-box .contents-box .concept-box {
       padding: 45px 10px 0 10px; }
-      .introduce-box .contents-box .concept-box__title {
-        color: #6BC6C4;
-        font-size: 15px;
-        font-weight: 700; }
       .introduce-box .contents-box .concept-box__text {
         margin-top: 25px; }
         .introduce-box .contents-box .concept-box__text p {
@@ -76,8 +72,21 @@
             font-weight: 700;
             padding-right: 17px; }
 
+.contents-box__wrapper {
+  margin-top: 20px;
+  margin-bottom: 50px; }
+  .contents-box__wrapper:last-child {
+    margin-bottom: 0; }
+  .contents-box__wrapper .sub-title {
+    margin-top: 25px; }
+    .contents-box__wrapper .sub-title:first-child {
+      margin-top: 0; }
+  .contents-box__wrapper p {
+    margin-top: 25px; }
+
 p {
-  line-height: 23px; }
+  line-height: 23px;
+  font-size: 13px; }
 
 .default-body {
   border-top: 8px solid #6BC6C4;
@@ -101,6 +110,11 @@ p {
   font-weight: 700;
   padding-bottom: 15px;
   border-bottom: 3px solid #6BC6C4; }
+
+.sub-title {
+  color: #6BC6C4;
+  font-size: 15px;
+  font-weight: 700; }
 
 .site-header {
   width: 100%; }
@@ -135,26 +149,25 @@ p {
   .site-header__nav {
     display: flex;
     margin-top: 5px; }
-    .site-header__nav button {
+    .site-header__nav a {
       text-align: center;
       width: 20%;
       padding: 20px 0;
       background: linear-gradient(#9DE3E1, #6BC6C4);
       color: #fff;
       font-size: 14px;
-      border: 1px solid #71C9C7;
-      transition: 'background' 0.3s; }
-      .site-header__nav button .sub-text {
+      border: 1px solid #71C9C7; }
+      .site-header__nav a .sub-text {
         font-size: 7px;
         text-align: center;
         font-weight: bold; }
-      .site-header__nav button:first-child {
+      .site-header__nav a:first-child {
         border-radius: 5px 0 0 5px; }
-      .site-header__nav button:last-child {
+      .site-header__nav a:last-child {
         border-radius: 0 5px 5px 0; }
-      .site-header__nav button:nth-child(-n+4) {
+      .site-header__nav a:nth-child(-n+4) {
         border-right: unset; }
-      .site-header__nav button:hover {
+      .site-header__nav a:hover {
         background: linear-gradient(#6BC6C4, #9DE3E1);
         color: #C1FFFD; }
 
@@ -220,7 +233,6 @@ p {
         margin-left: 0; }
 
 .footer-address p {
-  font-size: 13px;
   height: 50px;
   line-height: 50px;
   text-align: right;
