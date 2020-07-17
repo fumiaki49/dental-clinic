@@ -1,42 +1,22 @@
-const MODE = "production";
-const enabledSourceMap = MODE === "development";
-
 module.exports = {
-  mode: MODE,
+  mode: "production",
   watch: true,
-  entry: "./src/index.js",
+  entry: "./src/js/link.js",
   output: {
-    path: `${__dirname}/dist`,
-    filename: "main.js"
+    path: `${__dirname}/dist/js`,
+    filename: "bundle_link.js"
   },
   module: {
     rules: [
-      // Sassファイルの読み込みとコンパイル
       {
-        test: /\.scss/, // 対象となるファイルの拡張子
+        test: /\.js$/,
         use: [
-          // linkタグに出力する機能
-          "style-loader",
-          // CSSをバンドルするための機能
           {
-            loader: "css-loader",
+            loader: 'babel-loader',
             options: {
-              // オプションでCSS内のurl()メソッドの取り込みを禁止する
-              url: false,
-              // ソースマップの利用有無
-              sourceMap: enabledSourceMap,
-
-              // 0 => no loaders (default);
-              // 1 => postcss-loader;
-              // 2 => postcss-loader, sass-loader
-              importLoaders: 2
-            }
-          },
-          {
-            loader: "sass-loader",
-            options: {
-              // ソースマップの利用有無
-              sourceMap: enabledSourceMap
+              presets: [
+                '@babel/preset-env',
+              ]
             }
           }
         ]
