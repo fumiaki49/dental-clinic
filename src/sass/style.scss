@@ -1,6 +1,7 @@
 @import "destyle";
 @import "variable";
-@import "home";
+@import "top";
+@import "clinic";
 
 .default-body {
   border-top: 8px solid $themeColor;
@@ -19,6 +20,15 @@
 
 .default-text {
   color: $textColor;
+}
+
+.contents-title {
+  height: 50px;
+  line-height: 50px;
+  font-size: 16px;
+  font-weight: 700;
+  padding-bottom: 15px;
+  border-bottom: 3px solid $themeColor;
 }
 
 .site-header {
@@ -147,6 +157,7 @@
 
 .page-main-box {
   margin-left: 20px;
+  width: 640px;
 }
 
 .footer-nav {
@@ -162,7 +173,7 @@
       padding-left: 25px;
       margin-left: 20px;
       line-height: 30px;
-      background: url(./../images/bgFooterIcon.png)left center no-repeat;
+      background: url(./../../images/bgFooterIcon.png)left center no-repeat;
       &:first-child {
         margin-left: 0;
       }
