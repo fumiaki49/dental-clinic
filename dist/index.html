@@ -6,7 +6,9 @@
   <meta name="description "content="このサイトは歯科医院のコーポレートサイトを模写したものです。">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
-  <script src="main.js"></script>
+  <link rel="stylesheet" href="./css/destyle.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./js/bundle_link.js"></script>
   <title>Dental Clinic</title>
 </head>
 <body class="default-body">
@@ -28,41 +30,11 @@
         </div>
       </div>
       <nav class="site-header__nav">
-        <button>
-          <a href="">
-            トップページ
-            <br>
-            <span class="sub-text">HOME</span>
-          </a>
-        </button>
-        <button>
-          <a href="">
-            医院紹介
-            <br>
-            <span class="sub-text">CLINIC</span>
-          </a>
-        </button>
-        <button>
-          <a href="">
-            診療案内
-            <br>
-            <span class="sub-text">SERVICE</span>
-          </a>
-        </button>
-        <button>
-          <a href="">
-            院長・スタッフ紹介
-            <br>
-            <span class="sub-text">STAFF</span>
-          </a>
-        </button>
-        <button>
-          <a href="">
-            アクセス
-            <br>
-            <span class="sub-text">ACCESS</span>
-          </a>
-        </button>
+        <button class="link-to-top">トップページ<br><span class="sub-text">HOME</span></button>
+        <button class="link-to-clinic">医院紹介<br><span class="sub-text">CLINIC</span></button>
+        <button class="link-to-service">診療案内<br><span class="sub-text">SERVICE</span></button>
+        <button class="link-to-staff">院長・スタッフ紹介<br><span class="sub-text">STAFF</span></button>
+        <button class="link-to-access">アクセス<br><span class="sub-text">ACCESS</span></button>
       </nav>
     </div>
   </header>
@@ -98,7 +70,7 @@
           </div>
           <div class="news-box default-text">
             <div class="news">
-              <h3 class="news__title">新着情報</h3>
+              <h3 class="contents-title">新着情報</h3>
               <div class="news__text-box">
                 <dl>
                   <dt>2012年08月01日</dt>

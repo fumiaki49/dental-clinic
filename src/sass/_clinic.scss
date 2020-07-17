@@ -13,7 +13,7 @@
     padding-left: 25px;
   }
   & .contents-box {
-    padding: 0 20px;
+    padding: 0 20px 30px 20px;
     & .contents-title {
       margin-top: 20px;
     }
@@ -38,9 +38,31 @@
     }
     & .reception-box {
       margin-top: 15px;
-      border: 1px solid;
       & table {
         font-size: 13px;
+        width: 600px;
+        & th, td {
+          border: 1px solid #999999;
+          text-align: center;
+          padding: 15px;
+        }
+        & th {
+          background-color: #D1D1D1;
+        }
+      }
+      &__text-box {
+        margin-top: 25px;
+        & p {
+          font-size: 13px;
+          margin-top: 10px;
+          &:first-child {
+            margin-top: 0;
+          }
+          & span {
+            font-weight: 700;
+            padding-right: 17px;
+          }
+        }
       }
     }
   }
