@@ -141,6 +141,11 @@ p {
   background-color: #F6F6F6;
   font-family: Verdana,Arial,Helvetica,'meirio','メイリオ','Hiragino Maru Gothic Pro','ヒラギノ丸ゴ Pro W4',Osaka,'ＭＳ Ｐゴシック',sans-serif; }
 
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both; }
+
 .inner {
   width: 920px;
   margin: 0 auto; }
@@ -237,11 +242,10 @@ p {
 
 .main-area {
   margin-top: 20px; }
-  .main-area__wrapper {
-    display: flex; }
 
 .menu-box {
-  width: 260px; }
+  width: 260px;
+  float: left; }
   .menu-box .menu {
     margin-top: 20px;
     border: 1px solid #69ccae;
@@ -277,7 +281,8 @@ p {
 
 .page-main-box {
   margin-left: 20px;
-  width: 640px; }
+  width: 640px;
+  float: right; }
 
 .footer-nav {
   background-color: #6BC6C4;
@@ -307,3 +312,9 @@ p {
   text-align: center;
   height: 50px;
   line-height: 50px; }
+
+@media screen and (max-width: 920px) {
+  .inner {
+    width: 95%; }
+  .main-area__wrapper {
+    display: block; } }
