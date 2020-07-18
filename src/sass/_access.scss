@@ -1,0 +1,30 @@
+.map {
+  margin-top: 15px;
+  a {
+    text-decoration: underline;
+    font-size: 11px;
+    color: #0000ff;
+  }
+}
+
+.address.green-line {
+  border-top: 3px solid $themeColor;
+  border-bottom: unset;
+}
+
+.address {
+  margin-top: 10px;
+  &__content-box {
+    margin-top: 7px;
+    display: flex;
+    & .address-detail {
+      margin-left: 20px;
+      & .sub-title {
+        padding: 20px 0 25px 0;
+      }
+      &__text p:first-child {
+        margin-bottom: 15px;
+      }
+    }
+  }
+}

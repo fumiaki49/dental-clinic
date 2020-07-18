@@ -6,40 +6,30 @@
   .news-box .news {
     width: 640px;
     padding: 20px; }
-    .news-box .news__text-box {
+    .news-box .news .contents-title {
+      margin-top: unset; }
+    .news-box .news__news-box {
       margin-top: 30px;
       margin-bottom: 15px;
       font-size: 13px;
       padding: 0 10px; }
-      .news-box .news__text-box dt {
+      .news-box .news__news-box dt {
         float: left; }
-      .news-box .news__text-box dd {
+      .news-box .news__news-box dd {
         padding-left: 145px;
         padding-bottom: 15px;
         border-bottom: 1px dotted #cccccc; }
-      .news-box .news__text-box dt, .news-box .news__text-box dd {
+      .news-box .news__news-box dt, .news-box .news__news-box dd {
         line-height: 17.5px;
         margin-top: 10px; }
-        .news-box .news__text-box dt:first-child, .news-box .news__text-box dd:first-child {
+        .news-box .news__news-box dt:first-child, .news-box .news__news-box dd:first-child {
           margin-top: 0; }
 
 .introduce-box {
   border-radius: 5px;
   background-color: #fff; }
-  .introduce-box .title {
-    border-radius: 5px 5px 0 0;
-    color: #fff;
-    background: linear-gradient(#9DE3E1, #6BC6C4);
-    border: 1px solid #6BC6C4;
-    width: 100%;
-    height: 100px;
-    line-height: 100px;
-    font-size: 20px;
-    padding-left: 25px; }
   .introduce-box .contents-box {
     padding: 0 20px 30px 20px; }
-    .introduce-box .contents-box .contents-title {
-      margin-top: 20px; }
     .introduce-box .contents-box .concept-box {
       padding: 45px 10px 0 10px; }
       .introduce-box .contents-box .concept-box__text {
@@ -119,6 +109,29 @@
   .staff-profile ul {
     margin-top: 20px; }
 
+.map {
+  margin-top: 15px; }
+  .map a {
+    text-decoration: underline;
+    font-size: 11px;
+    color: #0000ff; }
+
+.address.green-line {
+  border-top: 3px solid #6BC6C4;
+  border-bottom: unset; }
+
+.address {
+  margin-top: 10px; }
+  .address__content-box {
+    margin-top: 7px;
+    display: flex; }
+    .address__content-box .address-detail {
+      margin-left: 20px; }
+      .address__content-box .address-detail .sub-title {
+        padding: 20px 0 25px 0; }
+      .address__content-box .address-detail__text p:first-child {
+        margin-bottom: 15px; }
+
 p {
   line-height: 23px;
   font-size: 13px; }
@@ -138,12 +151,25 @@ p {
 .default-text {
   color: #515151; }
 
+.title {
+  border-radius: 5px 5px 0 0;
+  color: #fff;
+  background: linear-gradient(#9DE3E1, #6BC6C4);
+  border: 1px solid #6BC6C4;
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  font-size: 20px;
+  padding-left: 25px; }
+
 .contents-title {
+  margin-top: 20px;
   height: 50px;
   line-height: 50px;
   font-size: 16px;
-  font-weight: 700;
-  padding-bottom: 15px;
+  font-weight: 700; }
+
+.green-line {
   border-bottom: 3px solid #6BC6C4; }
 
 .sub-title {
