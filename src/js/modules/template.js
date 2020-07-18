@@ -52,7 +52,7 @@ export function menuTemplate() {
                 </div>
               </div>`
   $('.page-main-box').before(menu);
-  $('.main-area__wrapper').addClass('clearfix');
+  $('.main-area').addClass('clearfix');
 }
 
 export function footerTemplate() {
