@@ -1,10 +1,10 @@
 module.exports = {
   mode: "production",
   watch: true,
-  entry: "./src/js/link.js",
+  entry: "./src/js/index.js",
   output: {
     path: `${__dirname}/dist/js`,
-    filename: "bundle_link.js"
+    filename: "main.js"
   },
   module: {
     rules: [
