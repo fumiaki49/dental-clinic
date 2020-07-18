@@ -1,0 +1,49 @@
+.director-profile {
+  display: flex;
+  margin-top: 15px;
+  & figure img {
+    margin-bottom: 18px;
+  }
+  & figcaption {
+    background-color: $themeColor;
+    & p {
+      text-align: center;
+      color: #fff;
+    }
+  }
+  & .director-carrer {
+    margin-left: 20px;
+    & h4 {
+      padding-top: 20px;
+    }
+    & ul {
+      margin-top: 25px;
+      & li {
+        margin-top: 10px;
+        &:first-child {
+          margin-top: 0;
+        }
+        & p {
+          line-height: unset;
+        }
+      }
+    }
+  }
+}
+
+.greet-text{
+  margin-top: 45px;
+  &__text p {
+    margin-top: 13px;
+    &:first-child {
+      margin-top: 20px;
+    }
+  }
+}
+
+.staff-profile {
+  margin-top: 15px;
+  & ul {
+    margin-top: 20px;
+  }
+}

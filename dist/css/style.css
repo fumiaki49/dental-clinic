@@ -84,6 +84,41 @@
   .contents-box__wrapper p {
     margin-top: 25px; }
 
+.director-profile {
+  display: flex;
+  margin-top: 15px; }
+  .director-profile figure img {
+    margin-bottom: 18px; }
+  .director-profile figcaption {
+    background-color: #6BC6C4; }
+    .director-profile figcaption p {
+      text-align: center;
+      color: #fff; }
+  .director-profile .director-carrer {
+    margin-left: 20px; }
+    .director-profile .director-carrer h4 {
+      padding-top: 20px; }
+    .director-profile .director-carrer ul {
+      margin-top: 25px; }
+      .director-profile .director-carrer ul li {
+        margin-top: 10px; }
+        .director-profile .director-carrer ul li:first-child {
+          margin-top: 0; }
+        .director-profile .director-carrer ul li p {
+          line-height: unset; }
+
+.greet-text {
+  margin-top: 45px; }
+  .greet-text__text p {
+    margin-top: 13px; }
+    .greet-text__text p:first-child {
+      margin-top: 20px; }
+
+.staff-profile {
+  margin-top: 15px; }
+  .staff-profile ul {
+    margin-top: 20px; }
+
 p {
   line-height: 23px;
   font-size: 13px; }
