@@ -5,7 +5,10 @@
   & .news {
     width: 640px;
     padding: 20px;
-    &__text-box {
+    & .contents-title {
+      margin-top: unset;
+    }
+    &__news-box {
       margin-top: 30px;
       margin-bottom: 15px;
       font-size: 13px;
