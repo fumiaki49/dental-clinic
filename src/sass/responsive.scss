@@ -1,0 +1,21 @@
+@media screen and (max-width: 920px) {
+  .inner {
+    width: 95%;
+  }
+
+  .menu-box, .page-main-box {
+    float: unset;
+    margin: 0 auto;
+  }
+  
+  .menu-box {
+    margin-top: 30px;
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 678px) {
+  .menu-box {
+    width: 99%;
+  }
+}
