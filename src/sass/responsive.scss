@@ -63,56 +63,57 @@
     content: "\A" ;
     white-space: pre ;
   }
-}
-
-// トップページ
-.page-main-box, .menu-box {
-  width: 99%;
-}
-
-.clinic-image img {
-  width: 99%;
-}
-
-.news-box .news .contents-box{
-  & dt {
-    float: unset;
+ 
+  // トップページ
+  .page-main-box, .menu-box {
+    width: 99%;
   }
-  & dd {
-    padding-left: unset;
-  }
-} 
 
-// 医院紹介ページ
-.introduce-box .contents-box .reception-box table {
-  width: 100%;
-  & th, td {
-    padding:20px 10px;
+  .clinic-image img {
+    width: 99%;
   }
-}
 
-// スタッフ紹介ページ
-.director-profile {
-  display: block;
-  & figure {
+  .news-box .news .contents-box{
+    & dt {
+      float: unset;
+    }
+    & dd {
+      padding-left: unset;
+    }
+  } 
+  
+  // 医院紹介ページ
+  .introduce-box .contents-box .reception-box table {
+    width: 100%;
+    & th, td {
+      padding:20px 10px;
+    }
+  }
+  
+  // スタッフ紹介ページ
+  .director-profile {
+    display: block;
+    & figure {
+      text-align: center;
+    }
+  }
+  
+  .staff-profile img {
+    width: 100%;
+  }
+  
+  // アクセスページ
+  .address__content-box {
+    display: block;
     text-align: center;
+    & .address-detail {
+      margin-left: unset;
+      text-align: left;
+    }
+  }
+  
+  .map iframe {
+    width: 100%;
   }
 }
 
-.staff-profile img {
-  width: 100%;
-}
-
-// アクセスページ
-.address__content-box {
-  display: block;
-  text-align: center;
-  & .address-detail {
-    margin-left: unset;
-    text-align: left;
-  }
-}
-
-.map iframe {
-  width: 100%;
-}

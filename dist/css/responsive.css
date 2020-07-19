@@ -40,39 +40,30 @@
     text-align: center; }
   .line-break::after {
     content: "\A";
-    white-space: pre; } }
-
-.page-main-box, .menu-box {
-  width: 99%; }
-
-.clinic-image img {
-  width: 99%; }
-
-.news-box .news .contents-box dt {
-  float: unset; }
-
-.news-box .news .contents-box dd {
-  padding-left: unset; }
-
-.introduce-box .contents-box .reception-box table {
-  width: 100%; }
-  .introduce-box .contents-box .reception-box table th, .introduce-box .contents-box .reception-box table td {
-    padding: 20px 10px; }
-
-.director-profile {
-  display: block; }
-  .director-profile figure {
+    white-space: pre; }
+  .page-main-box, .menu-box {
+    width: 99%; }
+  .clinic-image img {
+    width: 99%; }
+  .news-box .news .contents-box dt {
+    float: unset; }
+  .news-box .news .contents-box dd {
+    padding-left: unset; }
+  .introduce-box .contents-box .reception-box table {
+    width: 100%; }
+    .introduce-box .contents-box .reception-box table th, .introduce-box .contents-box .reception-box table td {
+      padding: 20px 10px; }
+  .director-profile {
+    display: block; }
+    .director-profile figure {
+      text-align: center; }
+  .staff-profile img {
+    width: 100%; }
+  .address__content-box {
+    display: block;
     text-align: center; }
-
-.staff-profile img {
-  width: 100%; }
-
-.address__content-box {
-  display: block;
-  text-align: center; }
-  .address__content-box .address-detail {
-    margin-left: unset;
-    text-align: left; }
-
-.map iframe {
-  width: 100%; }
+    .address__content-box .address-detail {
+      margin-left: unset;
+      text-align: left; }
+  .map iframe {
+    width: 100%; } }
