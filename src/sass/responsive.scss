@@ -15,7 +15,100 @@
 }
 
 @media screen and (max-width: 678px) {
-  .menu-box {
-    width: 99%;
+  .site-header__title {
+    height: 100%;
+    justify-content: unset;
+    display: block;
+    align-items: unset;
+    text-align: center;
+    & .contact-box {
+      margin-top: 15px;
+      display: inline-block;
+      &__reception {
+        margin-top: 5px;
+      }
+    }
+  }
+
+  .site-header__nav {
+    flex-wrap: wrap;
+    & a {
+      width: 50%;
+      padding: 10px 0;
+      &:first-child ,&:last-child {
+        border-radius: unset;
+      }
+    }
+  }
+
+  .footer-nav ul {
+    flex-wrap: wrap;
+    font-size: 10px;
+    & li {
+      width: 50%;
+      margin-left: unset;
+    }
+  }
+
+  .footer-address p, .copyright p{
+    font-size: 7px;
+    line-height: unset;
+  }
+
+  .footer-address p {
+    text-align: center;
+  }
+
+  .line-break::after {
+    content: "\A" ;
+    white-space: pre ;
+  }
+}
+
+// トップページ
+.page-main-box, .menu-box {
+  width: 99%;
+}
+
+.clinic-image img {
+  width: 99%;
+}
+
+.news-box .news .contents-box{
+  & dt {
+    float: unset;
+  }
+  & dd {
+    padding-left: unset;
+  }
+} 
+
+// 医院紹介ページ
+.introduce-box .contents-box .reception-box table {
+  width: 100%;
+  & th, td {
+    padding:20px 10px;
+  }
+}
+
+// スタッフ紹介ページ
+.director-profile {
+  display: block;
+  & figure {
+    text-align: center;
+  }
+}
+
+.staff-profile img {
+  width: 100%;
+}
+
+// アクセスページ
+.address__content-box {
+  display: block;
+  text-align: center;
+  & .address-detail {
+    margin-left: unset;
+    text-align: left;
   }
 }
