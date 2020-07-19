@@ -1,10 +1,8 @@
 .director-profile {
   display: flex;
   margin-top: 15px;
-  & figure img {
-    margin-bottom: 18px;
-  }
   & figcaption {
+    margin-top: 18px;
     background-color: $themeColor;
     & p {
       text-align: center;

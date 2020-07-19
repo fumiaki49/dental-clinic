@@ -4,25 +4,24 @@
   background-color: #fff;
   margin-top: 7px; }
   .news-box .news {
-    width: 640px;
     padding: 20px; }
     .news-box .news .contents-title {
       margin-top: unset; }
-    .news-box .news__news-box {
+    .news-box .news .contents-box {
       margin-top: 30px;
       margin-bottom: 15px;
       font-size: 13px;
       padding: 0 10px; }
-      .news-box .news__news-box dt {
+      .news-box .news .contents-box dt {
         float: left; }
-      .news-box .news__news-box dd {
+      .news-box .news .contents-box dd {
         padding-left: 145px;
         padding-bottom: 15px;
         border-bottom: 1px dotted #cccccc; }
-      .news-box .news__news-box dt, .news-box .news__news-box dd {
+      .news-box .news .contents-box dt, .news-box .news .contents-box dd {
         line-height: 17.5px;
         margin-top: 10px; }
-        .news-box .news__news-box dt:first-child, .news-box .news__news-box dd:first-child {
+        .news-box .news .contents-box dt:first-child, .news-box .news .contents-box dd:first-child {
           margin-top: 0; }
 
 .introduce-box {
@@ -77,9 +76,8 @@
 .director-profile {
   display: flex;
   margin-top: 15px; }
-  .director-profile figure img {
-    margin-bottom: 18px; }
   .director-profile figcaption {
+    margin-top: 18px;
     background-color: #6BC6C4; }
     .director-profile figcaption p {
       text-align: center;
@@ -196,7 +194,6 @@ p {
       .site-header__title .contact-box__title {
         font-size: 7px; }
       .site-header__title .contact-box__reception {
-        width: 100%;
         margin-top: 20px; }
         .site-header__title .contact-box__reception__tel {
           display: flex;
@@ -301,14 +298,16 @@ p {
       .footer-nav ul li:first-child {
         margin-left: 0; }
 
-.footer-address p {
-  height: 50px;
-  line-height: 50px;
-  text-align: right;
-  border-bottom: 2px solid #6BC6C4; }
+.footer-address, .copyright {
+  padding: 12px 0; }
 
-.copyright p {
-  font-size: 12px;
-  text-align: center;
-  height: 50px;
-  line-height: 50px; }
+.footer-address.green-line {
+  border-width: 2px; }
+
+.footer-address {
+  text-align: right; }
+
+.copyright {
+  text-align: center; }
+  .copyright p {
+    font-size: 12px; }

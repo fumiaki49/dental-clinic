@@ -81,7 +81,6 @@ p {
         font-size: 7px;
       }
       &__reception {
-        width: 100%;
         margin-top: 20px;
         &__tel {
           display: flex;
@@ -216,15 +215,20 @@ p {
     }
   }
 }
-.footer-address p{
-  height: 50px;
-  line-height: 50px;
-  text-align: right;
-  border-bottom: 2px solid $themeColor;
+.footer-address, .copyright{
+  padding: 12px 0;
 }
-.copyright p{
-  font-size: 12px;
+
+.footer-address.green-line {
+  border-width: 2px;
+}
+
+.footer-address {
+  text-align: right;
+}
+.copyright{
   text-align: center;
-  height: 50px;
-  line-height: 50px;
+  & p {
+    font-size: 12px;
+  }
 }
