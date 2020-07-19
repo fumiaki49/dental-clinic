@@ -67,8 +67,8 @@ export function footerTemplate() {
                         <li><a href="access.html">アクセス</a></li>
                       </ul>
                     </nav>
-                    <div class="footer-address">
-                      <p class="default-text">デンタル クリニック 東京都新宿区市谷左内町21-13 TEL:03-0000-0000</p>
+                    <div class="footer-address green-line">
+                      <p class="default-text"><span class="line-break">デンタル クリニック</span>東京都新宿区市谷左内町21-13 TEL:03-0000-0000</p>
                     </div>
                     <div class="copyright">
                       <p class="default-text">Copyright 2012 Dental Clinic CO.,LTD All Rights Reserved.</p>
