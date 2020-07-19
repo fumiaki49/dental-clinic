@@ -51,7 +51,7 @@ export function menuTemplate() {
                   </ul>
                 </div>
               </div>`
-  $('.page-main-box').before(menu);
+  $('.page-main-box').after(menu);
   $('.main-area').addClass('clearfix');
 }
 
