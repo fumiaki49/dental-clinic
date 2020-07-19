@@ -73,3 +73,6 @@
   .address__content-box .address-detail {
     margin-left: unset;
     text-align: left; }
+
+.map iframe {
+  width: 100%; }
