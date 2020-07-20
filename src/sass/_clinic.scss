@@ -1,49 +1,43 @@
-.introduce-box {
-  border-radius: 5px;
-  background-color: #fff;
-  & .contents-box {
-    padding: 0 20px 30px 20px;
-    & .concept-box {
-      padding: 45px 10px 0 10px;
-      &__text {
-        margin-top: 25px;
-        & p {
-          font-size: 13px;
-          margin-top: 15px;
-          line-height: 23px;
-          &:first-child {
-            margin-top: 0;
-          }
-        }
+.concept-box {
+  padding: 45px 10px 0 10px;
+  &__text {
+    margin-top: 25px;
+    & p {
+      font-size: 13px;
+      margin-top: 15px;
+      line-height: 23px;
+      &:first-child {
+        margin-top: 0;
       }
     }
-    & .reception-box {
-      margin-top: 15px;
-      & table {
-        font-size: 13px;
-        width: 600px;
-        & th, td {
-          border: 1px solid #999999;
-          text-align: center;
-          padding: 15px;
-        }
-        & th {
-          background-color: #D1D1D1;
-        }
+  }
+}
+
+.reception-box {
+  margin-top: 15px;
+  & table {
+    font-size: 13px;
+    width: 600px;
+    & th, td {
+      border: 1px solid #999999;
+      text-align: center;
+      padding: 15px;
+    }
+    & th {
+      background-color: #D1D1D1;
+    }
+  }
+  &__text-box {
+    margin-top: 25px;
+    & p {
+      font-size: 13px;
+      margin-top: 10px;
+      &:first-child {
+        margin-top: 0;
       }
-      &__text-box {
-        margin-top: 25px;
-        & p {
-          font-size: 13px;
-          margin-top: 10px;
-          &:first-child {
-            margin-top: 0;
-          }
-          & span {
-            font-weight: 700;
-            padding-right: 17px;
-          }
-        }
+      & span {
+        font-weight: 700;
+        padding-right: 17px;
       }
     }
   }

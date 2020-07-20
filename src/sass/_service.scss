@@ -1,18 +1,16 @@
-.contents-box {
-  &__wrapper {
-    margin-top: 20px;
-    margin-bottom: 50px;
-    &:last-child {
-      margin-bottom: 0;
+.service-list {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+  & .sub-title {
+    margin-top: 25px;
+    &:first-child {
+      margin-top: 0;
     }
-    & .sub-title {
-      margin-top: 25px;
-      &:first-child {
-        margin-top: 0;
-      }
-    }
-    & p {
-      margin-top: 25px;
-    }
+  }
+  & p {
+    margin-top: 25px;
   }
 }
