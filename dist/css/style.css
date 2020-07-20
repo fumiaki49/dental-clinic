@@ -240,6 +240,18 @@ p {
 .main-area {
   margin-top: 20px; }
 
+.pan-list {
+  margin-top: -20px;
+  height: 40px; }
+  .pan-list p {
+    line-height: 40px;
+    font-size: 10px; }
+    .pan-list p a {
+      color: #4D82C4;
+      text-decoration: underline; }
+      .pan-list p a:hover {
+        color: #B22D01; }
+
 .menu-box {
   width: 260px;
   float: left; }

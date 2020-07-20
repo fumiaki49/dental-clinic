@@ -143,6 +143,22 @@ p {
   margin-top: 20px;
 }
 
+.pan-list{
+  margin-top: -20px;
+  height: 40px;
+  & p {
+    line-height: 40px;
+    font-size: 10px;    
+    & a {
+      color: #4D82C4;
+      text-decoration: underline;
+      &:hover {
+        color: #B22D01;
+      }
+    }
+  }
+}
+
 .menu-box {
   width: 260px;
   float: left;
